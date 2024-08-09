@@ -1,8 +1,12 @@
 import os
 import streamlit as st  
 from datetime import datetime
+from dotenv import load_dotenv
 import google.generativeai as genai
 
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Access the GEMINI_API_KEY from the environment variables
 api_key = os.getenv("GEMINI_API_KEY")
