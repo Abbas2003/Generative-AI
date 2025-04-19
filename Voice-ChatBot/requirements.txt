@@ -1,0 +1,5 @@
+gradio
+openai-whisper
+gtts
+pydub
+groq
